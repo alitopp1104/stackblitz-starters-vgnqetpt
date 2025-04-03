@@ -1,0 +1,57 @@
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.form-group div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+label {
+  width: 150px;
+  text-align: right;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px 80px;
+  background-color: #16a085;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.custom-font.caveat {
+  font-family: 'Caveat', 'Tangerine', serif;
+}
+
+.custom-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+
+}
+
+.content-container {
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
